@@ -30,7 +30,6 @@ header {
 	width: 50%;
 	text-align: center;
 	top: 50%;
-	transition: all 3s;
 }
 
 .nav {
@@ -42,6 +41,12 @@ header {
 	justify-content: center;
 }
 
+.nav a {
+
+	text-decoration: none;
+
+}
+
 .menu {
 	height: 30px;
 	width: 200px;
@@ -49,7 +54,6 @@ header {
 	margin: 10px;
 	text-align: center;
 	font-size: 2em;
-	text-decoration: none;
 	color: rgb(80,80,80);
 
 }
