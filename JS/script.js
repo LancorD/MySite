@@ -1,5 +1,3 @@
-
-
 const lg = function () {
 	const hd = document.getElementById('cla');
 	hd.style.height = '10%';

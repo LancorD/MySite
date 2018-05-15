@@ -42,9 +42,7 @@ header {
 }
 
 .nav a {
-
 	text-decoration: none;
-
 }
 
 .menu {
@@ -55,7 +53,6 @@ header {
 	text-align: center;
 	font-size: 2em;
 	color: rgb(80,80,80);
-
 }
 
 /* Social */
@@ -72,10 +69,6 @@ header {
     padding: 6px;
     color: #000;
     display: block;
-}
-
-#cla {
-	transition: all 2s;
 }
 
 .github a:hover{background:#191919;color:#fff;}
