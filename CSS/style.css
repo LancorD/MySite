@@ -14,6 +14,7 @@ footer {
 	bottom: 0%;
 	width: 100%;
 	justify-content: center;
+	border-top: 1px solid rgb(80,80,80);
 }
 
 header {
@@ -23,12 +24,6 @@ header {
 	background: rgba(0, 0, 0,0.5) url("../IMG/computer.jpeg") center no-repeat;
 	background-size: cover;
 	z-index: 3;
-}
-
-header h1 {
-	padding: 10px 10px;
-	background-color: rgb(20,80,100);
-	color: #fff;
 }
 
 main {
@@ -53,11 +48,11 @@ fieldset legend {
 .logo {
 	font-size: 2em;
 	position: relative;
-	top: 0%;
-	margin: 0 auto;
-	width: 50%;
-	text-align: center;
+	width: 100%;
 	top: 10%;
+	display: flex;
+	flex-wrap: wrap;
+	transform: translateX(44%);
 }
 
 .nav {
